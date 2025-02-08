@@ -31,7 +31,7 @@ function TimeLine() {
                     <div></div>
                     <div></div>
                     <div></div>
-                    <div></div>
+                    <div id='last'></div>
                 </div>
                 <div className='timelimeContent'>
                     <div className='contentdiv'>
@@ -81,8 +81,8 @@ function TimeLine() {
                         <div className='contentdivinsight'>
                             <p><span className='achievement' >Achievment ✅</span> <br />
                                 Handling 4 People Teams</p>
-                            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexDirection: "row" }}>
-                                <span>🌟</span>
+                            <div style={{  display: "flex", justifyContent: "space-between", alignItems: "center", flexDirection: "row" }}>
+                                <span >🌟</span>
                                 <a href="">🚀
                                 </a>
                             </div>
@@ -94,14 +94,14 @@ function TimeLine() {
                     <div className='contentdiv'>
                         <div className='freelancer'>
                             <div className='freelancerinsight'>
-                                <h3>Want to hire me as a freelancer? Let's discuss.</h3>
-                                <span>Drop your message and let's discuss about your project.</span>
-                                <span style={{ marginTop: "12px", marginBottom: "12px", background: "#4FCE5D", width: "200px", border: "2px solid #4FCE5D", textAlign: "center", borderRadius: "2px", paddingTop: "6px", paddingBottom: "6px" }}>
+                                <h3 id='frelanceheading'>Want to hire me as a freelancer? Let's discuss.</h3>
+                                <span id='frelanceheading'>Drop your message and let's discuss about your project.</span>
+                                <span id='frelanceheading' style={{ marginTop: "12px", marginLeft:"10px", marginBottom: "12px", background: "#4FCE5D", width: "200px", border: "2px solid #4FCE5D", textAlign: "center", borderRadius: "2px", paddingTop: "6px", paddingBottom: "6px" }}>
                                     Chat on WhatsApp
                                 </span>
-                                <div style={{ fontWeight: "400" }}>Drop in your email ID and I will get back to you.</div>
-                                <input type="text" placeholder='arman@gmail.com' />
-                                <button className='buttonConatiner'>
+                                <div id='frelanceheading' style={{ fontWeight: "400" }}>Drop in your email ID and I will get back to you.</div>
+                                <input  type="text" placeholder='arman@gmail.com' />
+                                <button  className='buttonConatiner'>
                                     <a href="">Let's Talk</a>
                                     <MessageSquare enableBackground={"#0000"} size={18} strokeWidth={1} />
                                 </button>

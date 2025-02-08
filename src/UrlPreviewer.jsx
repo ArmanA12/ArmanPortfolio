@@ -27,8 +27,8 @@ function UrlPreviewer() {
     }, []);
 
     return (
-        <div style={{ position:"absolute",  top:"0px", width: "100%", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
-            <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div style={{ position:"absolute", overflow:"hidden",  top:"0px", width: "100%", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
+            <div style={{ display: "flex",overflow:"hidden", flexWrap: "wrap" }}>
                 {
                     dummy.map((item) => (
                         <div

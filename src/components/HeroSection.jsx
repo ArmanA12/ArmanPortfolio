@@ -9,7 +9,7 @@ function HeroSection() {
           <h1 style={{textAlign:"center", fontSize:"45px", letterSpacing:"3px"}}> 👋 Hi, I' M  <br /> Peter Parker</h1>
           <div className='socialmain'>
             <div className='socialContainer'>
-              <div style={{display:"flex", gap:"30px"}}>
+              <div id="socialIcons" style={{display:"flex", gap:"30px"}}>
                 <div className='themeToggleButton'>    <Linkedin strokeWidth={1} /> </div>
                 <div className='themeToggleButton'>    <Github strokeWidth={1} /> </div>
                 <div className='themeToggleButton'>    <X strokeWidth={1} /> </div>
