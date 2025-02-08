@@ -34,9 +34,10 @@ body {
 .even {
   width: 10px;
   height: 10px;
-  border-left: 0.5px solid var(--border-color);
-  border-top: 0.5px solid var(--border-color);
-  
+  border-left: 0.5px solid transparent;
+  border-top: 0.5px solid transparent;
+  transform: rotate(180deg);
+
 
 }
 
@@ -44,6 +45,8 @@ body {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
+  border-left: 0.5px solid var(--border-color);
+  border-top: 0.5px solid var(--border-color);
 
   transition: all 0.3s ease-in-out;
 
