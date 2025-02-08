@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div style={{ position: 'relative' }}>
-      <UrlPreviewer />
+      {/* <UrlPreviewer /> */}
       <Header />
       <HeroSection />
       <BlurBG />

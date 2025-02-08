@@ -623,22 +623,23 @@ box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 
     flex-direction: column;
   }
   .heroSectionContainer{
-    width: 100% !important;
+    width: 95% !important;
     padding: 5px;
   }
   .project-card{
     flex-direction: column;
   }
   .projectContainer{
-    width: 100% !important;
+    width: 95% !important;
     margin-top: 70px !important;
     padding: 6px !important;
   }
   .projectContainerSecond{
     padding: 0px !important;
+    background: transparent !important;
   }
   .project-card img{
-    width: 100% !important;
+    width: 95% !important;
     height: 160px !important;
   }
   .project-card p{
@@ -648,25 +649,25 @@ box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 
     margin-top: 5px;
   }
   .bgMain{
-    width: 100% !important;
+    width: 95% !important;
   }
   .personalProjectContainer{
-    width: 100% !important;
+    width: 95% !important;
   }
   .personalProjectCard{
-    width: 100% !important;
+    width: 95% !important;
   }
   .timelimeContent{
     flex-direction: column;
   }
   .contentdiv{
-    width: 100% !important;
+    width: 95% !important;
   }
   .freelancer{
     width: 100% !important;
   }
   .timelineCOntainer{
-    width: 100% !important;
+    width: 95% !important;
   }
   .timelimeContent div:nth-child(odd){
     padding-left: 0px !important;
@@ -675,7 +676,7 @@ box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 
     padding-left: 0px !important;
   }
   .header-container {
-    width: 100% !important;
+    width: 95% !important;
     padding: 5px;
   }
   .sde{
