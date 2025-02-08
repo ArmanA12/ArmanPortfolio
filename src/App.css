@@ -703,7 +703,7 @@ box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 
     padding-right: 12px;
   }
   .sde{
-    font-size: 20px !important;
+    font-size: 17px !important;
   }
   .layout{
     border-left: 1.5px transparent !important;
@@ -719,9 +719,88 @@ box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 
   }
   .freelancerinsight input,button{
     margin-left: 10px;
+    padding: 20px;
   }
   .cellRender{
     height: 100vh !important;
     position: fixed;
   }
+  .message{
+    color: var(--text-color);
+  }
+  .bgImage{
+    top: -50px !important;
+    height: 1700px !important;
+  }
+  .form{
+    top: 1% !important;
+    left: 3% !important;
+  
+  }
+}
+.form {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 15px;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: var(--background-color);
+  border: 1px dashed var(--border-color);
+  padding-bottom: 30px;
+  position: fixed;
+  top: 10%;
+  left: 38%;
+  z-index: 9999;
+
+}
+.submitbutton {
+  width: 90%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: var(--background-color);
+  border: 2px solid var(--border-color);
+  margin-top: 10px;
+  color: var(--text-color);
+}
+.submittext{
+  font-weight: 300 !important;
+  letter-spacing: 1px;
+}
+.form input, textarea{
+  background: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+.messageopner{
+  position: relative;
+
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  background: var(--background-color);
+  z-index: 999 !important;
+
+
+box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+
+
+
+}
+.fixedbutton{
+  position: fixed;
+  bottom: 10%;
+  right: 30px;
+
+}
+.talkmessage{
+  color: var(--text-color);
 }

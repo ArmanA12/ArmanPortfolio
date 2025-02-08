@@ -103,7 +103,7 @@ function TimeLine() {
                                 <input  type="text" placeholder='arman@gmail.com' />
                                 <button  className='buttonConatiner'>
                                     <a href="">Let's Talk</a>
-                                    <MessageSquare enableBackground={"#0000"} size={18} strokeWidth={1} />
+                                    <MessageSquare className='message' enableBackground={"#0000"} size={18} strokeWidth={1} />
                                 </button>
 
                             </div>
