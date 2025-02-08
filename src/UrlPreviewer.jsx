@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function UrlPreviewer() {
     // Initialize the array with meaningful values (e.g., index numbers)
-    const arrays = Array.from({ length: 25000 }, (_, index) => index);
+    const arrays = Array.from({ length: 23500 }, (_, index) => index);
     const [dummy, setDummy] = useState(arrays);
     const [animatedItems, setAnimatedItems] = useState([]);
 
@@ -27,8 +27,8 @@ function UrlPreviewer() {
     }, []);
 
     return (
-        <div style={{ position:"absolute", overflow:"hidden",  top:"0px", width: "100%", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
-            <div style={{ display: "flex",overflow:"hidden", flexWrap: "wrap" }}>
+        <div style={{ position:"absolute",   top:"0px", width: "100%", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
+            <div style={{ display: "flex", flexWrap: "wrap" }}>
                 {
                     dummy.map((item) => (
                         <div
