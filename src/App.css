@@ -98,7 +98,6 @@ body {
 }
 
 .themeToggleButton {
-
   padding-top: 7px;
   padding-bottom: 4px;
   padding-left: 14px;
@@ -106,16 +105,17 @@ body {
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   border-radius: 50pc;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
 }
-
+#socialIcons a{
+  color: var(--text-color)  !important;
+}
 .heroSection {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 40px;
-
-
 }
 
 .heroSectionContainer {
@@ -787,7 +787,7 @@ box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 
   align-items: center;
   border: 1px solid var(--border-color);
   background: var(--background-color);
-  z-index: 999 !important;
+  z-index: 9999999 !important;
 
 
 box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
@@ -799,8 +799,20 @@ box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
   position: fixed;
   bottom: 10%;
   right: 30px;
+  z-index: 9999999 !important;
+
 
 }
 .talkmessage{
   color: var(--text-color);
+}
+#a{
+  color: var(--text-color);
+  text-decoration: none;
+}
+.buttonConatiner span{
+  color:var(--text-color);
+}
+.right{
+  margin-top: 4dvb;
 }

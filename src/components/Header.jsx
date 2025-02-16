@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className='header'>
             <div className='header-container'>
-                <div style={{fontSize:"28px"}}>🤠 Peter Parker</div>
+                <div style={{fontSize:"28px"}}>🤠 Arman Shekh</div>
                 <div className='themeToggleButton' onClick={toggleTheme} >
                     {theme === 'light' ? <Moon enableBackground={"#0000"} size={18} strokeWidth={1} /> : <Sun size={18} strokeWidth={1} />}
                 </div>

@@ -10,6 +10,7 @@ import { GraduationCap } from 'lucide-react';
 import SimpleForm from './components/Talk';
 import { MessageSquare } from 'lucide-react';
 import { useState } from 'react';
+import { Suspense } from 'react';
 
 
 
@@ -19,7 +20,9 @@ function App() {
 
   return (
     <div style={{ position: 'relative' }}>
+      <Suspense fallback={"Loading...."}>
       <UrlPreviewer />
+      </Suspense>
       <Header />
       <HeroSection />
       <BlurBG />
@@ -40,6 +43,10 @@ function App() {
       <div className="fixedbutton">     
          <button onClick={() => setShow(!show)} className='messageopner'> <MessageSquare className='talkmessage' size={30} strokeWidth={1} /></button>
       </div>
+      <center>
+<p className='right'>      ©Arman s. All Rights Reserved
+</p>
+      </center>
     </div>
   );
 }
