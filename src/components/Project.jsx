@@ -14,7 +14,7 @@ export default function Project() {
             <div className='personalProjectContainer'>
                 <div className='personalProjectCard'>
                     <div className='number'>01</div>
-                    <img className='projectImage' src="../chatterNet-qF4rgeeM.png" alt="ChatterNet App" />
+                    <img  className='projectImage' src="../chatterNet-qF4rgeeM.png" alt="ChatterNet App" />
                     <div>ChatterNet Mobile App : Full Stack Social Media App</div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                         <div id='projectsButton' className='buttonConatiner'>
@@ -52,7 +52,7 @@ export default function Project() {
                 </div>
                 <div className='personalProjectCard'>
                     <div className='number'>03</div>
-                    <img className='projectImage' src="../insta-pOsT8H1v.png" alt="ChatterNet App" />
+                    <img loadind="lazy" className='projectImage' src="../insta-pOsT8H1v.png" alt="ChatterNet App" />
                     <div>Instagram Clone : Like Instagram                    </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                         <div id='projectsButton' className='buttonConatiner'>
@@ -65,13 +65,13 @@ export default function Project() {
                         </div>
                     </div>
                     <div className='projectBgContainer'>
-                        <img className='projectBackground1' src="../3.png" alt="Background" />
-                        <img className='projectBackground' src="../green.png" alt="Background" />
+                        <img loadind="lazy" className='projectBackground1' src="../3.png" alt="Background" />
+                        <img loadind="lazy" className='projectBackground' src="../green.png" alt="Background" />
                     </div>
                 </div>
                 <div className='personalProjectCard'>
                     <div className='number'>04</div>
-                    <img className='projectImage' src="../whiteboard.png" alt="ChatterNet App" />
+                    <img loadind="lazy" className='projectImage' src="../whiteboard.png" alt="ChatterNet App" />
                     <div>Online Collabrative Drawing Board                    </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                         <div id='projectsButton' className='buttonConatiner'>
@@ -84,13 +84,13 @@ export default function Project() {
                         </div>
                     </div>
                     <div className='projectBgContainer'>
-                        <img className='projectBackground1' src="../3.png" alt="Background" />
-                        <img className='projectBackground' src="../green.png" alt="Background" />
+                        <img loadind="lazy" className='projectBackground1' src="../3.png" alt="Background" />
+                        <img loadind="lazy" className='projectBackground' src="../green.png" alt="Background" />
                     </div>
                 </div>
                 <div className='personalProjectCard'>
                     <div className='number'>05</div>
-                    <img className='projectImage' src="../emc.png" alt="ChatterNet App" />
+                    <img loadind="lazy" className='projectImage' src="../emc.png" alt="ChatterNet App" />
                     <div>E-Commerce: Lile Amazone, Flipkart                    </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                         <div id='projectsButton' className='buttonConatiner'>
@@ -103,13 +103,13 @@ export default function Project() {
                         </div>
                     </div>
                     <div className='projectBgContainer'>
-                        <img className='projectBackground1' src="../3.png" alt="Background" />
-                        <img className='projectBackground' src="../green.png" alt="Background" />
+                        <img loadind="lazy" className='projectBackground1' src="../3.png" alt="Background" />
+                        <img loadind="lazy" className='projectBackground' src="../green.png" alt="Background" />
                     </div>
                 </div>
                 <div className='personalProjectCard'>
                     <div className='number'>06</div>
-                    <img className='projectImage' src="../upcoming.png" alt="ChatterNet App" />
+                    <img loadind="lazy" className='projectImage' src="../upcoming.png" alt="ChatterNet App" />
                     <div>Designer Work Management : Upcoming                    </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                         <div id='projectsButton' className='buttonConatiner'>
@@ -122,8 +122,8 @@ export default function Project() {
                         </div>
                     </div>
                     <div className='projectBgContainer'>
-                        <img className='projectBackground1' src="../3.png" alt="Background" />
-                        <img className='projectBackground' src="../green.png" alt="Background" />
+                        <img loadind="lazy" className='projectBackground1' src="../3.png" alt="Background" />
+                        <img loadind="lazy" className='projectBackground' src="../green.png" alt="Background" />
                     </div>
                 </div>
             </div>

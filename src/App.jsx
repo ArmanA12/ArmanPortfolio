@@ -11,6 +11,7 @@ import SimpleForm from './components/Talk';
 import { MessageSquare } from 'lucide-react';
 import { useState } from 'react';
 import { Suspense } from 'react';
+import Pricing from './components/Services'
 
 
 
@@ -21,11 +22,12 @@ function App() {
   return (
     <div style={{ position: 'relative' }}>
       <Suspense fallback={"Loading...."}>
-      <UrlPreviewer />
+      {/* <UrlPreviewer /> */}
       </Suspense>
       <Header />
       <HeroSection />
       <BlurBG />
+      <Pricing />
       <Skill />
       <Project />
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "15px", marginTop: "50px" }}>

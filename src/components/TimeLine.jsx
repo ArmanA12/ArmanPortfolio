@@ -119,7 +119,7 @@ function TimeLine() {
                             <p><span className='achievement' >Achievment ✅</span> <br />
                                 3 Start Coder at LeetCode</p>
                             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexDirection: "row" }}>
-                                <img style={{ width: "30px", objectFit: "contain" }} src="../leetcode.png" alt="" />
+                                <img loadind="lazy" style={{ width: "30px", objectFit: "contain" }} src="../leetcode.png" alt="" />
                                 <a href="https://leetcode.com/u/Arman_shekh123/">    <ArrowRight strokeWidth={1} />
                                 </a>
                             </div>
@@ -128,7 +128,7 @@ function TimeLine() {
                             <p><span className='achievement' >Achievment ✅</span> <br />
                                 Expert Coder at CodeStudio</p>
                             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexDirection: "row" }}>
-                                <img style={{ width: "40px", objectFit: "contain" }} src="../codestudio.png" alt="" />
+                                <img loadind="lazy" style={{ width: "40px", objectFit: "contain" }} src="../codestudio.png" alt="" />
                                 <a href="https://www.naukri.com/code360/profile/9f067365-76ca-4834-9b17-9bdae2b3219b">    <ArrowRight strokeWidth={1} />
                                 </a>
                             </div>

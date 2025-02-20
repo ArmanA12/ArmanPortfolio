@@ -7,14 +7,14 @@ function BlurBG() {
             <div className='bgMain'>
                 <div style={{position:"relative"}}>
                     <center >
-                        <img className='bgImage' src="../3.png " alt="" />
+                        <img loadind="lazy" className='bgImage' src="../3.png " alt="" />
                     </center>
                     <div className='prjectSections'>
                         <div className='projectContainer'>
                          <div className='projectContainerSecond'>
                          <div className='project-card'>
                             <div>
-                            <img src="../bee2bee-PGPgDu0B.png" alt="" />
+                            <img loadind="lazy" src="../bee2bee-PGPgDu0B.png" alt="" />
                             </div>
                             <div>
                                 <h3>Bee2Bee Asia                                </h3>
@@ -40,7 +40,7 @@ function BlurBG() {
                           </div>
                           <div style={{marginTop:"30px"}} className='project-card'>
                             <div>
-                            <img src="../intex-4d-8QAtr.png" alt="" />
+                            <img loadind="lazy" src="../intex-4d-8QAtr.png" alt="" />
                             </div>
                             <div>
                                 <h3>Intex South Asia
@@ -62,7 +62,7 @@ function BlurBG() {
                           </div>
                           <div style={{marginTop:"30px"}} className='project-card'>
                             <div>
-                            <img src="../wofx-TNMddv5_.png" alt="" />
+                            <img  loadind="lazy" src="../wofx-TNMddv5_.png" alt="" />
                             </div>
                             <div>
                                 <h3>World Furniture Expo                                </h3>

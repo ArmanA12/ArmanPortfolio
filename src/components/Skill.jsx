@@ -12,62 +12,62 @@ function Skill() {
 
         <div className='skillContainer'>
             <div className='skill-card'>
-                <img src="../html.png" alt="img" />
+                <img loadind="lazy" src="../html.png" alt="img" />
                 <div className='stick'></div>
 
             </div>
             <div className='skill-card'>
-                <img src="../css.png" alt="img" />
+                <img loadind="lazy" src="../css.png" alt="img" />
                 <div className='stick'></div>
 
             </div>
             <div className='skill-card'>
-                <img src="../reactjs.png" alt="img" />
+                <img loadind="lazy" src="../reactjs.png" alt="img" />
                 <div className='stick'></div>
 
             </div>
             <div className='skill-card'>
-                <img src="../javascript.png" alt="img" />
+                <img loadind="lazy" src="../javascript.png" alt="img" />
                 <div className='stick'></div>
 
             </div>
             <div className='skill-card'>
-                <img src="../typescript.png" alt="img" />
+                <img loadind="lazy" src="../typescript.png" alt="img" />
                 <div className='stick'></div>
 
             </div>
             <div className='skill-card'>
-                <img src="../tailwind.png" alt="img" />
+                <img loadind="lazy" src="../tailwind.png" alt="img" />
                 <div className='stick'></div>
 
             </div>
             <div className='skill-card'>
-                <img src="../nodejs.png" alt="img" />
+                <img loadind="lazy" src="../nodejs.png" alt="img" />
                 <div className='stick'></div>
 
             </div>
             <div className='skill-card'>
-                <img src="../mongodb.png" alt="img" />
+                <img loadind="lazy" src="../mongodb.png" alt="img" />
                 <div className='stick'></div>
 
             </div>
             <div className='skill-card'>
-                <img src="../docker.png" alt="img" />
+                <img loadind="lazy" src="../docker.png" alt="img" />
                 <div className='stick'></div>
 
             </div>
             <div className='skill-card'>
-                <img src="../next.png" alt="img" />
+                <img loadind="lazy" src="../next.png" alt="img" />
                 <div className='stick'></div>
 
             </div>
             <div className='skill-card'>
-                <img src="../git.png" alt="img" />
+                <img  loadind="lazy" src="../git.png" alt="img" />
                 <div className='stick'></div>
 
             </div>
             <div className='skill-card'>
-                <img src="../redux.png" alt="img" />
+                <img loadind="lazy" src="../redux.png" alt="img" />
                 <div className='stick'></div>
             </div>
 
