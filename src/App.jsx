@@ -22,7 +22,7 @@ function App() {
   return (
     <div style={{ position: 'relative' }}>
       <Suspense fallback={"Loading...."}>
-      {/* <UrlPreviewer /> */}
+      <UrlPreviewer />
       </Suspense>
       <Header />
       <HeroSection />

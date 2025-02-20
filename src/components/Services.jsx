@@ -37,12 +37,6 @@ const Pricing = () => {
 
         <div className="pricing-card individual" 
         
-        style={{
-            backgroundImage: `radial-gradient(circle, rgba(0,0,0,0.2) 1px, transparent 1px)`,
-            backgroundSize: "20px 20px",
-            backgroundColor: "white",
-            padding: "20px",
-          }}
     
         >
         <div className="trial-badge">Most Popular</div>

@@ -879,6 +879,7 @@ box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
     linear-gradient(90deg, rgba(0, 0, 0, 0.2) 1px, transparent 1px);
   background-size: 20px 20px;
   position: relative;
+  border: 1px solid var(--border-color) !important;
 }
 
 .pricing-card.individual {
@@ -1019,7 +1020,7 @@ box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
   }
 
   .pricing-card {
-    width: 100%;
+    width: 80%;
     max-width: 400px;
   }
 }
