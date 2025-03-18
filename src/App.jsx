@@ -19,9 +19,9 @@ function App() {
   const [show, setShow] = useState(false)
   return (
     <div style={{ position: 'relative' }}>
-      <Suspense fallback={"Loading...."}>
+{/*       <Suspense fallback={"Loading...."}>
       <UrlPreviewer />
-      </Suspense>
+      </Suspense> */}
       <Header />
       <HeroSection />
       <BlurBG />
