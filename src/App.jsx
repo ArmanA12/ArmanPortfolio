@@ -17,14 +17,12 @@ import HeroSection2 from './components/HeroSection2';
 
 
 function App() {
-
   const [show, setShow] = useState(false)
-
   return (
     <div style={{ position: 'relative' }}>
       {/* <Suspense fallback={"Loading...."}>
       <UrlPreviewer />
-      </Suspense> */}
+      </Suspense>  */}
       <Header />
       <HeroSection2 />
       {/* <HeroSection /> */}
@@ -37,13 +35,11 @@ function App() {
         <h3 style={{ fontSize: "30px", letterSpacing: "3px", fontWeight: "400" }}>Life and Updates
         </h3>
       </div>
-
       <TimeLine />
       {
         show && <SimpleForm />
 
       }
-
       <div className="fixedbutton">     
          <button onClick={() => setShow(!show)} className='messageopner'> <MessageSquare className='talkmessage' size={30} strokeWidth={1} /></button>
       </div>
