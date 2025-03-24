@@ -4,7 +4,7 @@
   --text-color: #272727;
   --border-color: rgba(0, 0, 0, 0.09);
   --text-color-two:rgba(0,0,0,0.5);
-  --dot-color: rgba(0, 0, 0, 0.05); /* Light dots for light background */
+  --dot-color: rgba(0, 0, 0, 0.05); 
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -101,7 +101,11 @@ body {
   padding-bottom: 4px;
   padding-left: 14px;
   padding-right: 14px;
-  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+
+  
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    
+  
   border-radius: 50pc;
   border: 1px solid rgba(255, 255, 255, 0.3);
   cursor: pointer;
@@ -176,10 +180,10 @@ text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.1);
 
 .bgImage {
   width: 90%;
-  height: 950px;
+  height: 550px;
   background: rgba(255, 255, 255, 0.3);
   filter: blur(100px);
-  margin-top: 130px;
+  margin-top: 350px;
   position: absolute;
   top: 0px;
   left: 5%;
@@ -221,9 +225,9 @@ text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.1);
   border: 1px solid var(--border-color);
   background: rgba(0,0,0,0.03);
   z-index: 9;
-  margin-top: 150px;
+  margin-top: 110px;
   border-radius: 10px;
-  padding: 20px;
+  padding: 0px;
 }
 .projectContainerSecond{
   background-color: var(--background-color);
@@ -497,7 +501,7 @@ box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 
   justify-content: center;
   align-items: center;
   padding: 0px !important;
-  border: 1px solid var(--border-color);
+  /* border: 1px solid var(--border-color); */
   background: var(--background-color);
   backdrop-filter: blur(2px);
 }
@@ -1053,4 +1057,241 @@ box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
     width: 80%;
     max-width: 400px;
   }
+}
+
+/* CSS for Hero Section 2 */
+/* HeroSection2.css */
+.hero-intro {
+  position: relative;
+  min-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: var(--background-color);
+  color: #000;
+  overflow: hidden;
+}
+
+.hero-grid-circle {
+  position: absolute;
+}
+
+.hero-grid-circle[data-side="top-left"] {
+  top: 0;
+  left: 0;
+}
+
+.hero-grid-circle[data-side="bottom-right"] {
+  bottom: 0;
+  right: 0;
+}
+
+.hero-grid-line {
+  position: absolute;
+  width: 1px;
+  height: 80%;
+  border-left: 1px dashed var(--border-color);
+}
+
+.hero-grid-line[data-side="left"] {
+  left: 25%;
+}
+
+.hero-grid-line[data-side="right"] {
+  right: 25%;
+}
+
+.hero-content {
+  max-width: 1200px;
+  width: 80%;
+  text-align: center;
+  position: relative;
+  border: 1px dashed var(--border-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+.hero-title {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 3.2rem;
+  line-height: 1.1;
+  position: relative;
+  border-right: 1px dashed var(--border-color);
+  border-left: 1px dashed var(--border-color);
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+
+  /* Gradient Text Fix */
+  background-image: linear-gradient( 180deg #555555, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* Ensures gradient applies properly */
+  text-align: center;
+
+}
+
+.gradient-text {
+  position: relative;
+  z-index: 9999 !important;
+
+  background-image: linear-gradient(to bottom, #8e8e8e, #696969, #464646, #252525, #000000);  
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.1);  
+
+}
+
+.hero-subtitle {
+  width: 80%;
+  margin: 0 auto;
+  color: var(--text-color);
+  font-size: 1.25rem;
+  border-right: 1px dashed var(--border-color);
+  border-top: 1px dashed var(--border-color);
+
+  border-left: 1px dashed var(--border-color);
+  padding: 2rem;
+}
+
+.hero-subtitle p {
+  margin: 0;
+}
+
+.hero-three-columns {
+  display: flex;
+  width: 86.8%;
+  margin: 0 auto;
+  
+}
+
+.hero-column-empty {
+  width: 20%;
+  margin: 0;
+}
+
+.hero-column-left {
+  border-top: 1px dashed var(--border-color);
+  border-left: 1px dashed var(--border-color);
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.hero-column-right {
+  border-top: 1px dashed var(--border-color);
+  border-right: 1px dashed var(--border-color);
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.hero-column-main {
+  width: 60%;
+  border: 1px dashed var(--border-color);
+  margin: 0;
+  padding: 2rem;
+}
+
+.hero-social-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0;
+}
+
+.hero-social a {
+  color: rgba(0, 0, 0, 0.7);
+  transition: color 0.2s ease;
+}
+
+.hero-social a:hover {
+  color: #000;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0 0;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.hero-button-primary {
+  background: #000;
+  color: #ffff;
+  border: 1px solid var(--text-color);
+}
+
+.hero-button-primary:hover {
+  background: #222;
+}
+
+.hero-button-secondary {
+  background: var(--background-color-second);
+  color: var(--text-color);
+}
+
+.hero-button-secondary:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-grid-line {
+    display: none;
+  }
+
+  .hero-three-columns {
+    flex-direction: column;
+  }
+
+  .hero-column-empty,
+  .hero-column-main {
+    width: 100%;
+  }
+
+  .hero-column-left {
+    border-right: 1px dashed rgba(0, 0, 0, 0.2);
+  }
+
+  .hero-column-right {
+    border-left: 1px dashed rgba(0, 0, 0, 0.2);
+  }
+}
+
+:root {
+  --line-opacity: 0.2;
 }

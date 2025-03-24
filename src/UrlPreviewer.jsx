@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function UrlPreviewer() {
     // Initialize the array with meaningful values (e.g., index numbers)
-    const arrays = Array.from({ length: 23500 }, (_, index) => index);
+    const arrays = Array.from({ length: 1000 }, (_, index) => index);
     const [dummy, setDummy] = useState(arrays);
     const [animatedItems, setAnimatedItems] = useState([]);
 

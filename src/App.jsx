@@ -12,6 +12,7 @@ import { MessageSquare } from 'lucide-react';
 import { useState } from 'react';
 import { Suspense } from 'react';
 import Pricing from './components/Services'
+import HeroSection2 from './components/HeroSection2';
 
 
 
@@ -21,11 +22,12 @@ function App() {
 
   return (
     <div style={{ position: 'relative' }}>
-      <Suspense fallback={"Loading...."}>
+      {/* <Suspense fallback={"Loading...."}>
       <UrlPreviewer />
-      </Suspense>
+      </Suspense> */}
       <Header />
-      <HeroSection />
+      <HeroSection2 />
+      {/* <HeroSection /> */}
       <BlurBG />
       <Pricing />
       <Skill />
