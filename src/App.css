@@ -360,11 +360,15 @@ box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 
 }
 
 .stick-white {
-  background: linear-gradient(to right top, #eae4e4, #9f9d9d);
+  background: linear-gradient(to right top, #eae4e4, #837e7e);
 }
 
 .stick-purple {
   background: linear-gradient(to right top, #ab47bc, #7b1fa2);
+}
+.stick-orange{
+  background: linear-gradient(to right top, #f99c4c, #e37616);
+
 }
 
 .skill-card:hover{

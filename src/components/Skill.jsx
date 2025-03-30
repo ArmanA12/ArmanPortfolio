@@ -20,20 +20,22 @@ function Skill() {
                     <div className="stick stick-blue"></div>
                 </div>
                 <div className="skill-card">
-                    <img loading="lazy" src="../reactjs.png" alt="React" />
-                    <div className="stick stick-blue"></div>
+                    <img loading="lazy" src="../nodejs.png" alt="Node.js" />
+                    <div className="stick stick-green"></div>
                 </div>
+
                 <div className="skill-card">
-                    <img loading="lazy" src="../typescript.png" alt="TypeScript" />
+                    <img loading="lazy" src="../reactjs.png" alt="React" />
                     <div className="stick stick-blue"></div>
                 </div>
                 <div className="skill-card">
                     <img loading="lazy" src="../javascript.png" alt="JavaScript" />
                     <div className="stick stick-yellow"></div>
                 </div>
+
                 <div className="skill-card">
-                    <img loading="lazy" src="../nodejs.png" alt="Node.js" />
-                    <div className="stick stick-green"></div>
+                    <img loading="lazy" src="../typescript.png" alt="TypeScript" />
+                    <div className="stick stick-blue"></div>
                 </div>
                 <div className="skill-card">
                     <img loading="lazy" src="../mongodb.png" alt="MongoDB" />
@@ -55,6 +57,12 @@ function Skill() {
                     <img loading="lazy" src="../redux.png" alt="Redux" />
                     <div className="stick stick-purple"></div>
                 </div>
+
+                <div className="skill-card">
+                    <img loading="lazy" src="../aws-removebg-preview.png" alt="Redux" />
+                    <div className="stick stick-orange"></div>
+                </div>
+
 
 
             </div>
