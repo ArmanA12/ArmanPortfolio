@@ -341,7 +341,12 @@ box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 
   filter: blur(10px);
   z-index: -1;
 }
-
+.frelancea{
+  color: var(--text-color);
+}
+.freelancecontainer{
+  border: 1px solid var(--border-color);
+}
 /* Color variations */
 .stick-red {
   background: linear-gradient(to right top, #ff6b6b, #d32f2f);
