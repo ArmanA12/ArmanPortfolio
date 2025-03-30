@@ -13,7 +13,7 @@ import { useState } from 'react';
 import { Suspense } from 'react';
 import Pricing from './components/Services'
 import HeroSection2 from './components/HeroSection2';
-
+import JointAIFTP from './components/JointAIFTP';
 
 
 function App() {
@@ -40,12 +40,13 @@ function App() {
         show && <SimpleForm />
 
       }
-      <div className="fixedbutton">     
-         <button onClick={() => setShow(!show)} className='messageopner'> <MessageSquare className='talkmessage' size={30} strokeWidth={1} /></button>
+      <JointAIFTP />
+      <div className="fixedbutton">
+        <button onClick={() => setShow(!show)} className='messageopner'> <MessageSquare className='talkmessage' size={30} strokeWidth={1} /></button>
       </div>
       <center>
-<p className='right'>      ©Arman s. All Rights Reserved
-</p>
+        <p className='right'>      ©Arman s. All Rights Reserved
+        </p>
       </center>
     </div>
   );

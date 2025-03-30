@@ -1,6 +1,7 @@
 // HeroSection2.jsx
 import React from 'react';
 import { MessageSquare, Download, Linkedin, Github, X, Facebook, Instagram } from 'lucide-react';
+import { TextHoverEffect2 } from './TextHoverEffect2';
 
 function HeroSection2() {
   return (
@@ -49,7 +50,7 @@ function HeroSection2() {
       {/* Main Content */}
       <div className="hero-content">
         <h1 className="hero-title gradient-text">
-         Hi, I'm  Arman Shekh
+         <TextHoverEffect2 text="Arman Shekh" />
           <svg 
             aria-hidden="true" 
             className="hero-grid-circle" 

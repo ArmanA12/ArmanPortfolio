@@ -16,12 +16,14 @@ const Pricing = () => {
 
         {/* Mobile Development Card */}
         <div className="pricing-card teams">
+          <div className='pricing_serviec_box'>
           <h2>Mobile Development</h2>
           <p className="price">Starts at <span>$2,000</span> per app</p>
           <p className="description">
             Ideal for startups or businesses wanting native or cross-platform mobile apps.
           </p>
           <button className="get-started-btn">Get started</button>
+          </div>
           <div className="features">
             <h3>Advanced Features, plus:</h3>
             <ul>
@@ -41,11 +43,14 @@ const Pricing = () => {
         >
         <div className="trial-badge">Most Popular</div>
         
-
-          <h2>Website Development</h2>
+        <div className='pricing_serviec_box'>
+        <h2>Website Development</h2>
           <p className="price">Starts at <span>$500</span> per project</p>
           <p className="description">Perfect for businesses or individuals looking to build a stunning online presence.</p>
           <button className="get-started-btn">Get started</button>
+
+        </div>
+
           <div className="features">
             <h3>Core Features</h3>
             <ul>
@@ -62,12 +67,14 @@ const Pricing = () => {
 
         {/* UI/UX Design Card */}
         <div className="pricing-card enterprise">
+          <div className='pricing_serviec_box'>
           <h2>UI/UX Design</h2>
           <p className="price">Starts at <span>$3,000</span> per project</p>
           <p className="description">
             Comprehensive design solutions for creating intuitive and visually appealing interfaces.
           </p>
           <button className="get-started-btn contact">Contact us</button>
+          </div>
           <div className="features">
             <h3>Premium Features, plus:</h3>
             <ul>

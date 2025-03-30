@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+
+@layer base {
+  img, video {
+    max-width: none !important; /* Remove the default max-width */
+    height: unset; /* Remove the default height: auto */
+  }
+}
 :root {
   --background-color: #ffffff;
   --text-color: #000000;
