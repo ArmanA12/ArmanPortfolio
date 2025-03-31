@@ -50,16 +50,11 @@ function HeroSection2() {
       {/* Main Content */}
       <div className="hero-content relative">
          <div className='absolute -top-5  flex justify-center items-center w-full'>
-            <div className='flex items-center relative overflow-hidden gap-3 px-8 py-2 rounded-4xl freelancecontainer'>
-                <div className='w-3 h-3 bg-green-600 rounded-3xl'></div>
-
-                <div className='frelancea'>Available for Freelance</div>
-                <div className='absolute top-1 w-36 h-6 bg-green-600 -z-10 blur-[100px]'>
-
-                </div>
-
-            </div>
-         </div>
+         <div className='flex items-center relative overflow-hidden gap-3 px-8 py-2 rounded-4xl freelancecontainer'>
+    <div className='w-3 h-3 bg-green-600 rounded-3xl' style={{ animation: 'pulseGlow 1.5s ease-in-out infinite' }}></div>
+    <div className='frelancea'>Available for Freelance</div>
+    <div className='absolute top-1 w-36 h-6 bg-green-600 -z-10 blur-[100px]'></div>
+</div>         </div>
         <h1 className="hero-title gradient-text">
          <TextHoverEffect2 text="Arman Shekh" />
           <svg 
