@@ -4,7 +4,7 @@ import { Cog } from 'lucide-react';
 
 function Skill() {
     return (
-        <div className='Skillmain'>
+        <div className="mt-[100px] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "15px" }}>
                 <Cog size={50} strokeWidth={0.5} />
                 <h3 style={{ fontSize: "30px", letterSpacing: "3px", fontWeight: "400" }}> Technical Skill </h3>
