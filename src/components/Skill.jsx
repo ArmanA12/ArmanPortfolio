@@ -10,7 +10,7 @@ function Skill() {
                 <h3 style={{ fontSize: "30px", letterSpacing: "3px", fontWeight: "400" }}> Technical Skill </h3>
             </div>
 
-            <div className="mt-[10px] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10">
+            <div className="mt-[10px] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-14">
                 <div className="skill-card">
                     <img loading="lazy" src="../html.png" alt="HTML" />
                     <div className="stick stick-red"></div>
