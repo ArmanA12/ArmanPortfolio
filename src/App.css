@@ -184,15 +184,47 @@ text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.1);
   font-weight: 300;
 }
 
+.orangebg{
+  width: 400px;
+  height: 400px;
+  background: rgb(249, 114, 17);
+  filter: blur(1000px); 
+  /* margin-top: 350px; */
+  position: absolute;
+  top: 40%;
+  left: -10%;
+
+}
+.greenbg{
+    width: 400px;
+  height: 400px;
+  background: rgb(22, 106, 74);
+  filter: blur(1000px); 
+  /* margin-top: 350px; */
+  position: absolute;
+  top: 40%;
+  right: -10%;
+
+}
+.seprator{
+  width: 5000px;
+  height: 70px;
+  background-color: var(--background-color);
+  filter: blur(13px);
+  position: absolute;
+  top: -20px;
+  z-index: 9999;
+}
+
 .bgImage {
-  width: 90%;
-  height: 550px;
-  background: rgba(255, 255, 255, 0.3);
-  filter: blur(100px);
-  margin-top: 350px;
+  
+  height: 1200px;
+  /* background: red; */
+  /* filter: blur(1000px); 
+  /* margin-top: 350px; */
   position: absolute;
   top: 0px;
-  left: 5%;
+  left: -20%;
 }
 .bgImagegreen{
   width: 70%;
@@ -211,10 +243,12 @@ text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  position: relative;
 }
 
 .bgMain {
-  width: 80%;
+  width: 86%;
   position: relative;
 }
 
@@ -228,11 +262,12 @@ text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.1);
 
 .projectContainer {
   width: 100%;
-  border: 1px solid var(--border-color);
+  border: 3px solid var(--border-color);
   background: rgba(0,0,0,0.03);
   z-index: 9;
-  margin-top: 110px;
+  margin-top: 90px;
   border-radius: 10px;
+  margin-bottom: 80px;
   padding: 0px;
 }
 .projectContainerSecond{

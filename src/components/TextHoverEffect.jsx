@@ -66,7 +66,7 @@ export const TextHoverEffect = ({ text, duration = 0 }) => {
         textAnchor="middle"
         dominantBaseline="middle"
         stroke="url(#textGradient)" // Gradient stroke outline
-        strokeWidth="0.2" // Thinner stroke width
+        strokeWidth="0.3" // Thinner stroke width
         className="fill-transparent text-6xl font-bold"
       >
         {text}
@@ -79,7 +79,7 @@ export const TextHoverEffect = ({ text, duration = 0 }) => {
         textAnchor="middle"
         dominantBaseline="middle"
         stroke="url(#textGradient)"
-        strokeWidth="0.2" // Thinner stroke width for hover text
+        strokeWidth="0.3" // Thinner stroke width for hover text
         mask="url(#textMask)"
         className="fill-transparent text-6xl font-bold"
       >

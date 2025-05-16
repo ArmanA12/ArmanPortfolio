@@ -4,17 +4,28 @@ import { SendHorizontal } from 'lucide-react';
 function BlurBG() {
   return (
     <div className="bgContainer">
+      <div className="seprator">
+
+      </div>
+
       <div className="bgMain">
         <div style={{ position: "relative" }}>
+          <div className='orangebg'>
+
+          </div>
+          <div className='greenbg'>
+
+          </div>
+
           <div style={{ textAlign: "center" }}>
-            <img  loading="lazy" className="bgImage" src="../3.png" alt="" />
+            <img loading="lazy" className="bgImage" src="../dotbgimage.png" alt="" />
           </div>
           <div className="prjectSections">
             <div className="projectContainer">
               <div className="projectContainerSecond">
                 <div className="project-card">
                   <div>
-                    <img  loading="lazy" src="../bee2bee-PGPgDu0B.png" alt="" />
+                    <img loading="lazy" src="../bee2bee-PGPgDu0B.png" alt="" />
                   </div>
                   <div>
                     <h3 className='text-xl font-bold py-3'>Bee2Bee Asia</h3>
