@@ -14,6 +14,7 @@ import { Suspense } from 'react';
 import Pricing from './components/Services'
 import HeroSection2 from './components/HeroSection2';
 import JointAIFTP from './components/JointAIFTP';
+import DotBackground from './components/DotEffect';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <UrlPreviewer />
       </Suspense>  */}
       <Header />
+      <DotBackground />
       <HeroSection2 />
       {/* <HeroSection /> */}
       <BlurBG />
