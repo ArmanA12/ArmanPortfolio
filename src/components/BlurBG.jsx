@@ -17,9 +17,9 @@ function BlurBG() {
 
           </div>
 
-          <div style={{ textAlign: "center" }}>
+          {/* <div style={{ textAlign: "center" }}>
             <img loading="lazy" className="bgImage" src="../dotbgimage.png" alt="" />
-          </div>
+          </div> */}
           <div className="prjectSections">
             <div className="projectContainer">
               <div className="projectContainerSecond">
